@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<title>Rides Search Results</title>
+<!-- CSS script -->
+<link rel="stylesheet" href="{% static 'rides.css' %}" />
+{% endblock head %}
+
+{% block content %}
+<div class="container">
+  <h2 class="my-3 d-flex">Your search rides results:- </h2>
+  {% include 'rideCards.html' %}
+</div>
+{% endblock %}

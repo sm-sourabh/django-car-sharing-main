@@ -1,0 +1,45 @@
+html {
+  font-size: 1rem;
+}
+
+html body{
+  font-family: 'Merriweather', serif;
+}
+
+body #top-section {
+  text-align: center;
+}
+
+.top-section {
+  /* background-image: linear-gradient(45deg, #478ac9, #db545a); */
+  padding: 3%;
+}
+
+.row .form-control {
+  border-radius: 20px;
+  font-size: 1rem;
+}
+
+form label {
+  font-weight: bold;
+}
+
+.d-flex .btn {
+  /* color: #fff; */
+  border-radius: 30px;
+}
+
+/* Styling Placeholder text */
+
+::-webkit-input-placeholder {
+  font-size: 1rem;
+}
+::-moz-placeholder {
+  font-size: 1rem;
+}
+:-ms-input-placeholder {
+  font-size: 1rem;
+}
+::placeholder {
+  font-size: 1rem;
+}
