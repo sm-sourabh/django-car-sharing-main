@@ -14,7 +14,7 @@ This repository contains a Django-based web application for car sharing. The app
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/bajpaiayush0128/django-car-sharing.git
+   https://github.com/sm-sourabh/django-car-sharing-main
    ```
 
 2. Navigate to the project directory:
